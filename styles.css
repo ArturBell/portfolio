@@ -140,22 +140,21 @@ html {
   color: inherit;
   font-size: inherit;
   font-family: inherit;
+  display: flex;
+  flex-direction: column;
 }
 .section h2 {
   text-align: center;
 }
 .grid_section {
   display: grid;
-  /* grid-template-columns: 33% 33% 33%; */
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  /* overflow: hidden; */
   padding: 60px;
   padding-top: 80px;
   gap: 15px;
 }
 .grid_section h2{
   text-align: center;
-  grid-column: 2;
 }
 .grid_section #image1 {
   grid-column: 1 / 2;
