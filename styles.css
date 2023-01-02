@@ -146,7 +146,9 @@ html {
 }
 .grid_section {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  /* grid-template-columns: 33% 33% 33%; */
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  /* overflow: hidden; */
   padding: 60px;
   padding-top: 80px;
   gap: 15px;
